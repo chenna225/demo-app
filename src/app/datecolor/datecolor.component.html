@@ -1,0 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <td>Id </td>
+            <td>Name</td>
+            <td>Date of Birth </td>
+            <td>Age </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let col of Array">
+            <td>{{ col.Id }}</td>
+            <td>{{ col.Name }}</td>
+            <td [style.color] = "getColorDate(col.DOB)" >{{ col.DOB | date: 'dd/MM/yyyy' }}</td>
+            <td>{{ col.Age }}</td>
+        </tr>
+    </tbody>
+</table>
+

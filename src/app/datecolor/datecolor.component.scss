@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+tr{
+    padding: 100px;
+    vertical-align: bottom;
+    border-bottom: 20px;
+}
+td {
+    padding: 15px;
+    vertical-align: bottom;
+    border-radius: 2px solid red;
+}
